@@ -1,0 +1,92 @@
+﻿@model IEnumerable<ejercicio1.Models.modCatalogo>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>GetAll</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+<body>
+
+    <div class="card text-center">
+        <div class="card-header">
+            <p>
+                <a asp-action="AgregarNuevo">Nuevo</a>
+            </p>
+        </div>
+        <div class="card-body">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.id_enf_cronica)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.nombre)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.descripcion)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.fecha_registro)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.fecha_actualizacion)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.fecha_inicio)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.estado)
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.id_enf_cronica)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.nombre)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.descripcion)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.fecha_registro)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.fecha_actualizacion)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.fecha_inicio)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.estado)
+                            </td>
+                            <td>
+                                @Html.ActionLink("Modificar", "Actualizar", new { id = item.id_enf_cronica }) |
+                                @Html.ActionLink("Ver", "Detalles", new { id = item.id_enf_cronica }) |
+                                @Html.ActionLink("Eliminar", "Eliminar", new { id = item.id_enf_cronica })
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        <div class="card-footer text-muted">
+        </div>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
