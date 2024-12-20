@@ -23,7 +23,7 @@ namespace ejercicio1.dataAccess
                 List<modCatalogo> listamod = new List<modCatalogo>();
                 conexion();
                 DataTable dt = new DataTable();
-                NpgsqlCommand sqlcmd = new NpgsqlCommand("select * from schemasye.tc_enfermedad_cronica", con);
+                NpgsqlCommand sqlcmd = new NpgsqlCommand("select * from schemasye.obtener_enfermedad()", con);
                 sqlcmd.CommandType = CommandType.Text;
 
                 try

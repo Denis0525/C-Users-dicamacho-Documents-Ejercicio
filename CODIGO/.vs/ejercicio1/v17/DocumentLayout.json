@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dicamacho\\Documents\\Ejercicio\\CODIGO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{48CD9CA9-46C4-47EF-BBFB-32A514992E2C}|ejercicio1.csproj|c:\\users\\dicamacho\\documents\\ejercicio\\codigo\\dataaccess\\conexionbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48CD9CA9-46C4-47EF-BBFB-32A514992E2C}|ejercicio1.csproj|solutionrelative:dataaccess\\conexionbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48CD9CA9-46C4-47EF-BBFB-32A514992E2C}|ejercicio1.csproj|c:\\users\\dicamacho\\documents\\ejercicio\\codigo\\views\\home\\actualizar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48CD9CA9-46C4-47EF-BBFB-32A514992E2C}|ejercicio1.csproj|solutionrelative:views\\home\\actualizar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48CD9CA9-46C4-47EF-BBFB-32A514992E2C}|ejercicio1.csproj|c:\\users\\dicamacho\\documents\\ejercicio\\codigo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48CD9CA9-46C4-47EF-BBFB-32A514992E2C}|ejercicio1.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48CD9CA9-46C4-47EF-BBFB-32A514992E2C}|ejercicio1.csproj|c:\\users\\dicamacho\\documents\\ejercicio\\codigo\\views\\home\\detalles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48CD9CA9-46C4-47EF-BBFB-32A514992E2C}|ejercicio1.csproj|solutionrelative:views\\home\\detalles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "conexionBD.cs",
+              "DocumentMoniker": "C:\\Users\\dicamacho\\Documents\\Ejercicio\\CODIGO\\dataAccess\\conexionBD.cs",
+              "RelativeDocumentMoniker": "dataAccess\\conexionBD.cs",
+              "ToolTip": "C:\\Users\\dicamacho\\Documents\\Ejercicio\\CODIGO\\dataAccess\\conexionBD.cs",
+              "RelativeToolTip": "dataAccess\\conexionBD.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T18:25:31.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\dicamacho\\Documents\\Ejercicio\\CODIGO\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\dicamacho\\Documents\\Ejercicio\\CODIGO\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAuwB4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T18:11:57.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Actualizar.cshtml",
+              "DocumentMoniker": "C:\\Users\\dicamacho\\Documents\\Ejercicio\\CODIGO\\Views\\Home\\Actualizar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Actualizar.cshtml",
+              "ToolTip": "C:\\Users\\dicamacho\\Documents\\Ejercicio\\CODIGO\\Views\\Home\\Actualizar.cshtml",
+              "RelativeToolTip": "Views\\Home\\Actualizar.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T18:11:51.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Detalles.cshtml",
+              "DocumentMoniker": "C:\\Users\\dicamacho\\Documents\\Ejercicio\\CODIGO\\Views\\Home\\Detalles.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Detalles.cshtml",
+              "ToolTip": "C:\\Users\\dicamacho\\Documents\\Ejercicio\\CODIGO\\Views\\Home\\Detalles.cshtml",
+              "RelativeToolTip": "Views\\Home\\Detalles.cshtml",
+              "ViewState": "AgIAADoAAAAAAAAAAAD4v0gAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T18:06:12.001Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

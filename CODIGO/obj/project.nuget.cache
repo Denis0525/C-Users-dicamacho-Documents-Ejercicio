@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fLasmNynzxw=",
+  "dgSpecHash": "Q8n02a6LGfA=",
   "success": true,
-  "projectFilePath": "C:\\proyectos\\ejercicio1\\ejercicio1\\ejercicio1.csproj",
+  "projectFilePath": "C:\\Users\\dicamacho\\Documents\\Ejercicio\\CODIGO\\ejercicio1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dicamacho\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\dicamacho\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
